@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import { connect } from "react-redux";
+
 class ResultsPosts extends Component {
   render() {
     return (
@@ -18,4 +20,4 @@ function mapStateToProps(state) {
   };
 }
 
-export default conntect(mapStateToProps)(ResultsPosts);
+export default connect(mapStateToProps)(ResultsPosts);
