@@ -14,6 +14,12 @@
       display: grid;
       gap: 42px;
 
+      .recent-post__topics {
+        font-size: 14px;
+        color: $color-gray-one;
+        margin-top: 10px;
+      }
+
       @media screen and (min-width: 700px) {
         grid-template-columns: 1fr 1fr 1fr;
       }
